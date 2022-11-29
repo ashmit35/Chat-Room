@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "628510075836",
+    "project_id": "crypto-guru-a28ad",
+    "storage_bucket": "crypto-guru-a28ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628510075836:android:7f8a4fc3445642af7719b9",
+        "android_client_info": {
+          "package_name": "com.example.cryptoguru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628510075836-abhom9tk0t2ssgb1528c8ik89fmb2sg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5soDWWoWHr_Lt84DgL4lb4zUhcxv-XJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628510075836-abhom9tk0t2ssgb1528c8ik89fmb2sg0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

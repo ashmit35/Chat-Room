@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/drawable/bg_reciever.xml" value="0.2095" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/drawable/bg_sender.xml" value="0.2095" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/drawable/circularinput.xml" value="0.2095" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/drawable/entermessagelayout.xml" value="0.2095" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/drawable/ic_icons8_whatsapp.xml" value="0.2095" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/drawable/linear_background.xml" value="0.2095" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/drawable/toolbarcolor.xml" value="0.2095" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/layout/activity_chat_detail.xml" value="0.264" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/layout/activity_group_chat.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/layout/activity_settings.xml" value="0.27514792899408286" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/layout/activity_splash.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/layout/circularinput.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/layout/fragment_chats.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/layout/my_toolbar.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/layout/recycler_view_layout.xml" value="0.2" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/layout/sample_receiver.xml" value="0.8" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/layout/sample_sender.xml" value="0.536" />
+        <entry key="..\:/Users/ashmi/Desktop/Apps/Java Dev/NeatRoots/Crypto Guru/app/src/main/res/menu/cryptogurumenu.xml" value="0.19791666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
