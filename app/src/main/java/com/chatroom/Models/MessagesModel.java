@@ -1,4 +1,4 @@
-package com.example.cryptoguru.Models;
+package com.chatroom.Models;
 
 public class MessagesModel {
     private String uId,message;

@@ -1,4 +1,4 @@
-package com.example.cryptoguru;
+package com.chatroom;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -10,8 +10,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.cryptoguru.Models.Users;
-import com.example.cryptoguru.databinding.ActivitySettingsBinding;
+import com.chatroom.Models.Users;
+import com.chatroom.databinding.ActivitySettingsBinding;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;

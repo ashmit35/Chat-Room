@@ -5,7 +5,7 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:background="@drawable/backgroundchat"
-    tools:context=".GroupChatActivity">
+    tools:context="com.chatroom.GroupChatActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"

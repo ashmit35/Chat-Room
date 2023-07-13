@@ -7,7 +7,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.cryptoguru"
+        applicationId "com.chatroom"
         minSdk 22
         targetSdk 33
         versionCode 1

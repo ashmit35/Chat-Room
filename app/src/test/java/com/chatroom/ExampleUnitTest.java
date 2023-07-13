@@ -1,4 +1,4 @@
-package com.example.cryptoguru;
+package com.chatroom;
 
 import org.junit.Test;
 

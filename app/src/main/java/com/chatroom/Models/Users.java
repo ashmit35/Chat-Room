@@ -1,4 +1,4 @@
-package com.example.cryptoguru.Models;
+package com.chatroom.Models;
 
 public class Users {
    private String profilePic,userName,mail,password,userId,lastMessage,status;

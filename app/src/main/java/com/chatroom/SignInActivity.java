@@ -1,4 +1,4 @@
-package com.example.cryptoguru;
+package com.chatroom;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,12 +8,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.example.cryptoguru.Models.Users;
-import com.example.cryptoguru.databinding.ActivitySignInBinding;
-import com.example.cryptoguru.databinding.ActivitySignUpBinding;
+import com.chatroom.Models.Users;
+import com.chatroom.databinding.ActivitySignInBinding;
+import com.chatroom.databinding.ActivitySignUpBinding;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;

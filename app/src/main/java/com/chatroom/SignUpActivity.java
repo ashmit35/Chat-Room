@@ -1,4 +1,4 @@
-package com.example.cryptoguru;
+package com.chatroom;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,8 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.cryptoguru.Models.Users;
-import com.example.cryptoguru.databinding.*;
+import com.chatroom.Models.Users;
+import com.chatroom.databinding.ActivitySignUpBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -52,7 +52,7 @@ public class SignUpActivity extends AppCompatActivity {
                 progressDialog.show();
 
                 auth.createUserWithEmailAndPassword(email,password)
-                        .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        .addOnCompleteListener(new OnCompleteListener<AuthResult>() {admi
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 progressDialog.dismiss();
@@ -63,6 +63,10 @@ public class SignUpActivity extends AppCompatActivity {
                                     String id = task.getResult().getUser().getUid();//it is uid of database ... you can see there in the database section
                                     database.getReference().child("Users").child(id).setValue(user); //a new node is created whose child is "id" and whose value is "user
                                     Toast.makeText(SignUpActivity.this, "User Created Successfully", Toast.LENGTH_SHORT).show();
+
+                                    Intent intent = new Intent(SignUpActivity.this,MainActivity.class);
+                                    startActivity(intent);
+                                    finish();
                                 }
                                 else{
                                     Toast.makeText(SignUpActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();

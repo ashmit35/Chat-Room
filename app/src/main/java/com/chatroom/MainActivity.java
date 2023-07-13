@@ -1,4 +1,4 @@
-package com.example.cryptoguru;
+package com.chatroom;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,10 +9,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.Toast;
 
-import com.example.cryptoguru.Adapters.FragmentAdapter;
-import com.example.cryptoguru.databinding.ActivityMainBinding;
+import com.chatroom.Adapters.FragmentAdapter;
+import com.chatroom.databinding.ActivityMainBinding;
 import com.google.firebase.auth.FirebaseAuth;
 // to get SHA-1 .... (./gradlew signingReport) write this on terminal and press ctrl + Enter
 public class MainActivity extends AppCompatActivity {

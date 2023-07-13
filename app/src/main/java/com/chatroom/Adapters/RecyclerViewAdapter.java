@@ -1,4 +1,4 @@
-package com.example.cryptoguru.Adapters;
+package com.chatroom.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,9 +11,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.cryptoguru.ChatDetailActivity;
-import com.example.cryptoguru.Models.Users;
-import com.example.cryptoguru.R;
+import com.chatroom.ChatDetailActivity;
+import com.chatroom.Models.Users;
+import com.chatroom.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "628510075836",
-    "project_id": "crypto-guru-a28ad",
-    "storage_bucket": "crypto-guru-a28ad.appspot.com"
+    "project_number": "593392805475",
+    "project_id": "chat-room-4b8f5",
+    "storage_bucket": "chat-room-4b8f5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:628510075836:android:7f8a4fc3445642af7719b9",
+        "mobilesdk_app_id": "1:593392805475:android:cb9b690230d6f3c4607a56",
         "android_client_info": {
-          "package_name": "com.example.cryptoguru"
+          "package_name": "com.chatroom"
         }
       },
       "oauth_client": [
         {
-          "client_id": "628510075836-abhom9tk0t2ssgb1528c8ik89fmb2sg0.apps.googleusercontent.com",
+          "client_id": "593392805475-ipofd02lgd71aspudhmaehrr0shl8898.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA5soDWWoWHr_Lt84DgL4lb4zUhcxv-XJ8"
+          "current_key": "AIzaSyBikaeN6UoQ98OY9eb9drqkBOPJAZ4biA4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "628510075836-abhom9tk0t2ssgb1528c8ik89fmb2sg0.apps.googleusercontent.com",
+              "client_id": "593392805475-ipofd02lgd71aspudhmaehrr0shl8898.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

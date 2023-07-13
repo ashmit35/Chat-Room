@@ -1,8 +1,6 @@
-package com.example.cryptoguru.Adapters;
+package com.chatroom.Adapters;
 
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,10 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.cryptoguru.Models.MessagesModel;
-import com.example.cryptoguru.R;
+import com.chatroom.Models.MessagesModel;
+import com.chatroom.R;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 

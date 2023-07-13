@@ -1,6 +1,5 @@
-package com.example.cryptoguru;
+package com.chatroom;
 
-import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -9,10 +8,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.cryptoguru.Adapters.ChatAdapter;
-import com.example.cryptoguru.Models.MessagesModel;
-import com.example.cryptoguru.databinding.ActivityChatDetailBinding;
-import com.example.cryptoguru.databinding.ActivityGroupChatBinding;
+import com.chatroom.Adapters.ChatAdapter;
+import com.chatroom.Models.MessagesModel;
+import com.chatroom.databinding.ActivityChatDetailBinding;
+import com.chatroom.databinding.ActivityGroupChatBinding;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;

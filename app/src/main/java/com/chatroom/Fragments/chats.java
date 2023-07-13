@@ -1,4 +1,4 @@
-package com.example.cryptoguru.Fragments;
+package com.chatroom.Fragments;
 
 import android.os.Bundle;
 
@@ -9,13 +9,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 
-import com.example.cryptoguru.Adapters.RecyclerViewAdapter;
-import com.example.cryptoguru.Models.Users;
-import com.example.cryptoguru.R;
-import com.example.cryptoguru.databinding.ActivityMainBinding;
-import com.example.cryptoguru.databinding.FragmentChatsBinding;
+import com.chatroom.Adapters.RecyclerViewAdapter;
+import com.chatroom.Models.Users;
+import com.chatroom.databinding.ActivityMainBinding;
+import com.chatroom.databinding.FragmentChatsBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
