@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.CryptoGuru" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#1c92d2</item>
-        <item name="colorPrimaryVariant">#1c92d2</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>

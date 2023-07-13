@@ -61,8 +61,7 @@ public class SignUpActivity extends AppCompatActivity {
                                     Users user = new Users(username,email,password);
 
                                     String id = task.getResult().getUser().getUid();//it is uid of database ... you can see there in the database section
-                                    database.getReference().child("Users").child(id).setValue(user); //a new node is created whose child is "id" and whose value is "user"
-
+                                    database.getReference().child("Users").child(id).setValue(user); //a new node is created whose child is "id" and whose value is "user
                                     Toast.makeText(SignUpActivity.this, "User Created Successfully", Toast.LENGTH_SHORT).show();
                                 }
                                 else{
