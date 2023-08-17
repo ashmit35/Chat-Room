@@ -3,6 +3,7 @@ package com.chatroom.Models;
 public class MessagesModel {
     private String uId,message;
     private Long timeStamp;
+    public MessagesModel(){}
 
     public MessagesModel(String uId, String message, Long timeStamp) {
         this.uId = uId;
@@ -35,6 +36,5 @@ public class MessagesModel {
         this.message = message;
     }
 
-    public MessagesModel(){}
 
 }

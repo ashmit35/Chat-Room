@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import com.chatroom.Models.Users;
 import com.chatroom.databinding.ActivitySignInBinding;
-import com.chatroom.databinding.ActivitySignUpBinding;
+
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -20,7 +20,6 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
@@ -46,7 +45,7 @@ public class SignInActivity extends AppCompatActivity {
 
         progressDialog = new ProgressDialog(SignInActivity.this);
         progressDialog.setTitle("Login");
-        progressDialog.setMessage("Login to your account");
+        progressDialog.setMessage("Logging in to your account");
 
         binding.signin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,7 +94,7 @@ public class SignInActivity extends AppCompatActivity {
 
         // Configure Google Sign In
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(("628510075836-abhom9tk0t2ssgb1528c8ik89fmb2sg0.apps.googleusercontent.com"))
+                .requestIdToken(("593392805475-ipofd02lgd71aspudhmaehrr0shl8898.apps.googleusercontent.com"))
                 .requestEmail()
                 .build();
 
@@ -127,7 +126,6 @@ public class SignInActivity extends AppCompatActivity {
                 Log.d("TAG", "firebaseAuthWithGoogle:" + account.getId());
                 firebaseAuthWithGoogle(account.getIdToken());
             } catch (ApiException e) {
-                // Google Sign In failed, update UI appropriately
                 Log.w("TAG", "Google sign in failed", e);
             }
         }
@@ -158,7 +156,6 @@ public class SignInActivity extends AppCompatActivity {
                         }
                         else {
                             Toast.makeText(SignInActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                            Snackbar.make(binding.getRoot(),"Authentication Failed",Snackbar.LENGTH_SHORT).show();
                         }
                     }
                 });

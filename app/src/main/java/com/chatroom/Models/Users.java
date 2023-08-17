@@ -2,10 +2,7 @@ package com.chatroom.Models;
 
 public class Users {
    private String profilePic,userName,mail,password,userId,lastMessage,status;
-
-   public Users(){
-
-   }
+   public Users(){}
 
    //SignUp constructor
    public Users(String userName, String mail, String password) {

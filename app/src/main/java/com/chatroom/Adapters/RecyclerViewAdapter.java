@@ -70,7 +70,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context, ChatDetailActivity.class);
-                intent.putExtra("userID",users.getUserId("random value dal do kyuki getter me manga h"));
+                intent.putExtra("userID",users.getUserId(""));
                 intent.putExtra("profilePic",users.getProfilePic());
                 intent.putExtra("userName",users.getUserName());
                 context.startActivity(intent);

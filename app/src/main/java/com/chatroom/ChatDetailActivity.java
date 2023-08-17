@@ -18,12 +18,10 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
-
 import java.util.ArrayList;
 import java.util.Date;
 
 public class ChatDetailActivity extends AppCompatActivity {
-
     private ActivityChatDetailBinding binding;
     private FirebaseDatabase database;
     private FirebaseAuth auth;
@@ -98,7 +96,6 @@ public class ChatDetailActivity extends AppCompatActivity {
                         .setValue(messagesModel).addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void unused) {
-
                         database.getReference().child("Chats")
                                 .child(receiverRoom)
                                 .push()

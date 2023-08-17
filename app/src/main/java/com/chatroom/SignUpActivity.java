@@ -52,7 +52,7 @@ public class SignUpActivity extends AppCompatActivity {
                 progressDialog.show();
 
                 auth.createUserWithEmailAndPassword(email,password)
-                        .addOnCompleteListener(new OnCompleteListener<AuthResult>() {admi
+                        .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 progressDialog.dismiss();
@@ -60,8 +60,8 @@ public class SignUpActivity extends AppCompatActivity {
                                 if(task.isSuccessful()){
                                     Users user = new Users(username,email,password);
 
-                                    String id = task.getResult().getUser().getUid();//it is uid of database ... you can see there in the database section
-                                    database.getReference().child("Users").child(id).setValue(user); //a new node is created whose child is "id" and whose value is "user
+                                    String id = task.getResult().getUser().getUid();
+                                    database.getReference().child("Users").child(id).setValue(user);
                                     Toast.makeText(SignUpActivity.this, "User Created Successfully", Toast.LENGTH_SHORT).show();
 
                                     Intent intent = new Intent(SignUpActivity.this,MainActivity.class);

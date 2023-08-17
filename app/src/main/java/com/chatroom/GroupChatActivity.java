@@ -34,8 +34,8 @@ public class GroupChatActivity extends AppCompatActivity {
         binding.backArrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent inten = new Intent(GroupChatActivity.this, MainActivity.class);
-                startActivity(inten);
+                Intent intent = new Intent(GroupChatActivity.this, MainActivity.class);
+                startActivity(intent);
                 finish();
             }
         });
@@ -43,6 +43,7 @@ public class GroupChatActivity extends AppCompatActivity {
         final ArrayList<MessagesModel> messagesModels = new ArrayList<>();
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
         final String senderId = FirebaseAuth.getInstance().getUid();
+
         binding.userName.setText("Group Chat");
         final ChatAdapter adapter = new ChatAdapter(messagesModels,GroupChatActivity.this);
         binding.chatRecyclerView.setAdapter(adapter);

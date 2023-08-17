@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/chat_icon_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CryptoGuru">
+        android:theme="@style/Theme.ChatRoom">
         <activity
             android:name="com.chatroom.SettingsActivity"
             android:exported="false" />
@@ -23,20 +23,19 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name="com.chatroom.SignInActivity"
-            android:exported="true" >
+            android:exported="false" >
         </activity>
         <activity
             android:name="com.chatroom.SignUpActivity"
             android:exported="false" />
         <activity
             android:name="com.chatroom.MainActivity"
-            android:exported="true">
+            android:exported="false">
 
         </activity>
     </application>

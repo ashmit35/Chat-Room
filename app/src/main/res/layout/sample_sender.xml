@@ -37,7 +37,7 @@
             android:maxWidth="270dp"
             android:minWidth="50dp"
             android:padding="2dp"
-            android:text="uhhhhhhhhhhhhhhuhuhuhu"
+            android:text="hi"
             app:layout_constraintEnd_toStartOf="@+id/guideline4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

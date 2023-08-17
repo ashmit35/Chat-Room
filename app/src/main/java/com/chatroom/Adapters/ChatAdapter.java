@@ -73,7 +73,7 @@ public class ChatAdapter extends RecyclerView.Adapter{
     // there will be 2 viewHolder because there is sender and receiver message
 
     public class ReceiverViewHolder extends RecyclerView.ViewHolder{
-        private TextView receiverMsg,receiverTime;
+        private TextView receiverMsg;
 
         public ReceiverViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -82,7 +82,7 @@ public class ChatAdapter extends RecyclerView.Adapter{
     }
 
     public class SenderViewHolder extends RecyclerView.ViewHolder{
-        private TextView senderMsg,senderTime;
+        private TextView senderMsg;
 
         public SenderViewHolder(@NonNull View itemView) {
             super(itemView);

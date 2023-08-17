@@ -1,30 +1,23 @@
 package com.chatroom.Fragments;
 
 import android.os.Bundle;
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.chatroom.Adapters.RecyclerViewAdapter;
 import com.chatroom.Models.Users;
-import com.chatroom.databinding.ActivityMainBinding;
 import com.chatroom.databinding.FragmentChatsBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
 import java.util.ArrayList;
 
 public class chats extends Fragment {
-
     public chats() {
-        // Required empty public constructor
     }
 
     private FragmentChatsBinding binding;
